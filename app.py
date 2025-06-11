@@ -3,7 +3,8 @@ import joblib
 import pandas as pd
 
 # Load model and feature names
-model, feature_names, scaler = joblib.load(r"C:\Users\abhin\OneDrive\Desktop\Latedelivery\late_delivery_model (2).pkl")
+model, feature_names, scaler = joblib.load('late_delivery_model (2).pkl')
+
 
 
 st.title("🚚 LatePlate: Late Delivery Predictor")
